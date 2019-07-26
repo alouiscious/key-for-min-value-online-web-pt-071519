@@ -1,11 +1,12 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(hash)       
 # Think about how to determine which value is the lowest. 
 # Do you need to compare each value to something as you iterate? 
 # Think about how to collect or store the correct key. 
 # Remember that you need your method to return just the key.
+
+def key_for_min_value(hash)       
 
   min_value = nil
   min_key = nil
