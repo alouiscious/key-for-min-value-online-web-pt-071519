@@ -14,8 +14,9 @@ def key_for_min_value(hash)
   hash.each do |key, value|
     if hash.empty?
       return nil
+    end
       
-    elsif min_value == 0 || value < min_value 
+    if min_value == 0 || value < min_value 
       min_value = value
       min_key = key
     end
