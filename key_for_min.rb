@@ -10,13 +10,13 @@ def key_for_min_value(hash)
 
   min_value = 0
   min_key = 0
+  
   if hash.empty?
     return nil
   end
   
   hash.each do |key, value|
 
-      
     if min_value == 0 || value < min_value 
       min_value = value
       min_key = key
